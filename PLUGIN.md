@@ -42,26 +42,26 @@ From your new plugin's folder, run the following.
 
 You should see something like this (don't bother trying to connect iOS to it yet).
 
-cheetah:homebridge-temperature-machine toby$ DEBUG=* homebridge -D -P .
-[3/16/2017, 8:08:09 PM] Loaded plugin: homebridge-example-plugin
-homebridge API version: 2.1
-[3/16/2017, 8:08:09 PM] Registering platform 'homebridge-samplePlatform.SamplePlatform'
-[3/16/2017, 8:08:09 PM] ---
-[3/16/2017, 8:08:09 PM] config.json (/Users/toby/.homebridge/config.json) not found.
-Load homebridge-samplePlatform.SamplePlatform
-[3/16/2017, 8:08:09 PM] [homebridge-samplePlatform.SamplePlatform] SamplePlatform Init
-Scan this code with your HomeKit App on your iOS device to pair with Homebridge:
+    $ DEBUG=* homebridge -D -P .
+    [3/16/2017, 8:08:09 PM] Loaded plugin: homebridge-example-plugin
+    homebridge API version: 2.1
+    [3/16/2017, 8:08:09 PM] Registering platform 'homebridge-samplePlatform.SamplePlatform'
+    [3/16/2017, 8:08:09 PM] ---
+    [3/16/2017, 8:08:09 PM] config.json (/Users/toby/.homebridge/config.json) not found.
+    Load homebridge-samplePlatform.SamplePlatform
+    [3/16/2017, 8:08:09 PM] [homebridge-samplePlatform.SamplePlatform] SamplePlatform Init
+    Scan this code with your HomeKit App on your iOS device to pair with Homebridge:
                        
     ┌────────────┐     
     │ 031-45-154 │     
     └────────────┘     
                        
-  Accessory [Homebridge] Creating new AccessoryInfo for our HAP server +0ms
-  Accessory [Homebridge] Creating new IdentifierCache +5ms
-[3/16/2017, 8:08:10 PM] [homebridge-samplePlatform.SamplePlatform] DidFinishLaunching
-[3/16/2017, 8:08:10 PM] [homebridge-samplePlatform.SamplePlatform] Server Listening...
-  EventedHTTPServer Server listening on port 51015 +13ms
-[3/16/2017, 8:08:10 PM] Homebridge is running on port 51015.
+      Accessory [Homebridge] Creating new AccessoryInfo for our HAP server +0ms
+      Accessory [Homebridge] Creating new IdentifierCache +5ms
+    [3/16/2017, 8:08:10 PM] [homebridge-samplePlatform.SamplePlatform] DidFinishLaunching
+    [3/16/2017, 8:08:10 PM] [homebridge-samplePlatform.SamplePlatform] Server Listening...
+      EventedHTTPServer Server listening on port 51015 +13ms
+    [3/16/2017, 8:08:10 PM] Homebridge is running on port 51015.
 
 Success!
 
