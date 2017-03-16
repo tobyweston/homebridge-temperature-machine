@@ -1,17 +1,17 @@
 {
-  "name": "homebridge-samplePlatform",
-  "version": "0.0.1",
-  "description": "Sample Platform plugin for homebridge: https://github.com/nfarina/homebridge",
-  "license": "ISC",
+  "name": "homebridge-temperature-machine",
+  "version": "1.0.0",
+  "description": "temperature-machine plugin for homebridge: https://github.com/nfarina/homebridge",
+  "license": "Apache",
   "keywords": [
     "homebridge-plugin"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/example/homebridge.git"
+    "url": "git://github.com/tobyweston/homebridge-temperature-machine.git"
   },
   "bugs": {
-    "url": "http://github.com/example/homebridge/issues"
+    "url": "http://github.com/tobyweston/homebridge-temperature-machine/issues"
   },
   "engines": {
     "node": ">=0.12.0",
